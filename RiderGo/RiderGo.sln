@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{9388D8E7-CE3A-426E-AC04-BC69104F4756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infrastructure", "03 - Infrastructure", "{E6611B25-699D-4453-886F-E7C85CA390BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderGo.Domain", "src\RiderGo.Domain\RiderGo.Domain.csproj", "{1529849F-C897-4FC7-BE69-33580ACF86B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderGo.Infrastructure", "src\RiderGo.Infrastructure\RiderGo.Infrastructure.csproj", "{E894FF09-2378-46C6-910F-7DECB0D68755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderGo.API", "src\RiderGo.API\RiderGo.API.csproj", "{99B95B32-D672-4C24-836D-3DF10140085F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1529849F-C897-4FC7-BE69-33580ACF86B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1529849F-C897-4FC7-BE69-33580ACF86B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1529849F-C897-4FC7-BE69-33580ACF86B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1529849F-C897-4FC7-BE69-33580ACF86B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E894FF09-2378-46C6-910F-7DECB0D68755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E894FF09-2378-46C6-910F-7DECB0D68755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E894FF09-2378-46C6-910F-7DECB0D68755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E894FF09-2378-46C6-910F-7DECB0D68755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B95B32-D672-4C24-836D-3DF10140085F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B95B32-D672-4C24-836D-3DF10140085F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B95B32-D672-4C24-836D-3DF10140085F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B95B32-D672-4C24-836D-3DF10140085F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1529849F-C897-4FC7-BE69-33580ACF86B2} = {9388D8E7-CE3A-426E-AC04-BC69104F4756}
+		{E894FF09-2378-46C6-910F-7DECB0D68755} = {E6611B25-699D-4453-886F-E7C85CA390BF}
+		{99B95B32-D672-4C24-836D-3DF10140085F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18065490-B75D-4DF9-AC0C-D1039374E933}
+	EndGlobalSection
+EndGlobal
