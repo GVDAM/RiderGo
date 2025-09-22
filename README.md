@@ -19,7 +19,7 @@ Existem duas formas de rodar o projeto:
 ### Passos
 1. Clonar o repositório
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/GVDAM/RiderGo.git
    ```
 2. Entrar na pasta raiz (onde está a solução `RiderGo.sln`)
    ```bash
@@ -50,7 +50,7 @@ Existem duas formas de rodar o projeto:
 ### Passos
 1. Clonar o repositório
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/GVDAM/RiderGo.git
    ```
 2. Criar o banco de dados em container Docker
    ```bash
